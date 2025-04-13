@@ -10,6 +10,7 @@ class TokenEmbedding(nn.Embedding):
     """
     Token Embedding using torch.nn
     they will dense representation of word using weighted matrix
+    直接使用nn.Embedding进行编码操作
     """
 
     def __init__(self, vocab_size, d_model):
